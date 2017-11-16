@@ -6,12 +6,7 @@ public class Contact {
     private String email;
     private String phoneNumber;
 
-    public Contact(){
-
-    }
-
     public Contact(String name,String email,String phoneNumber){
-
         this.name=name;
         this.email=email;
         this.phoneNumber=phoneNumber;
@@ -43,10 +38,4 @@ public class Contact {
 
     }
 
-    @Override
-    public String toString() {
-
-        return this.name+", "+this.email+", "+this.phoneNumber;
-        //return this.name+this.email+this.phoneNumber;
-    }
 }
